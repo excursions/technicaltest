@@ -6,18 +6,24 @@ namespace AppBundle\Entity;
 class Patient
 {
 	const GENDER_MALE = 1;
+
 	const GENDER_FEMALE = 2;
+
 	const GENDER_OTHER = 3;
 
-	/** @var  int */
+	/** @var int */
 	private $id;
-	/** @var  string */
+
+	/** @var string */
 	private $name;
-	/** @var  \DateTime */
+
+	/** @var \DateTime */
 	private $dob;
-	/** @var  string */
+
+	/** @var string */
 	private $gender;
-	/** @var  Hospital */
+
+	/** @var Hospital */
 	private $hospital;
 
 	/**

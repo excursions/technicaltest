@@ -5,8 +5,10 @@ namespace AppBundle\Entity;
 
 class Hospital
 {
+	/** @var int */
 	private $id;
 
+	/** @var string */
 	private $name;
 
 	/**

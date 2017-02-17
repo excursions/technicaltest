@@ -10,7 +10,10 @@ class PatientRepository implements RepositoryInterface
 	/** @return Patient */
 	public function selectById($id)
 	{
-		// TODO: Implement selectById() method.
+		$patient = new Patient();
+		$patient->setName("Some Patient");
+
+		return $patient;
 	}
 
 	/**
